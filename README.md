@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To run the project
 
-## Available Scripts
+To run this project you should install react and dependencies by:
 
-In the project directory, you can run:
+- Cloning this project and
+- installing the dependencies - npm install
+- npm run start
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Requirements/Specification
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. The implemented styling should be pixel-perfect and should precisely match the provided
+mockup
+2. The layout should be responsive and everything should scale proportionally between 768px and
+1680px screen width
 
-### `npm test`
+1. Minimum layout width should be 768px
+2. Maximum layout width should be 1680px
+3. It would be great If the font size scales too
+3. Visual appearance of any component should be controlled via a variant prop passed to the
+component
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. All components should be styled via SCSS modules
+5. The following CSS transitions should be animated:
 
-### `npm run build`
+1. Color
+2. Background color
+3. Border color (if applicable)
+6. body should not have any paddings or margins set
+7. Three React components should be implemented within the scope of this challenge
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Firm Facts component
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Only one variant of the component is possible
+2. The component should wrap everything and implement the cards layout via display:
+grid;
+3. Note that the buttons' position in the top row differs from the buttons' position in the
+bottom row
+4. The component should be centered horizontally on the page and positioned at 100px
+from the page top
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Firm Fact Card component
+1. Appearance of the component should be controlled by a variant prop
+2. There can be two variants of the Firm Fact Card:
+1. default - top row, on hover the whole background color changes to green
+Deliverables
+2. border - bottom row, on hover only the border color changes to green
+3. Button component
+1. Appearance of the component should be controlled by a variant prop
+2. There can be two variants of the Button:
+1. default - the text should not wrap, the button can have just one line of text,
+should maintain paddings, and truncate the text without ellipsis
+2. icon - there should be an icon, the button can have one or two lines of text,
+should maintain the paddings, and truncate the text with ellipsis
+3. The button should have a styled disabled state
+1. The three components described in the challenge should be implemented to precisely match the
+mockup
+2. Please provide a link to a GitHub repo with the implemented challenge
+3. Once the repo is cloned locally, after running yarn start we should observe the Firm Facts
+component properly rendered and positioned on a page according to the provided specification
