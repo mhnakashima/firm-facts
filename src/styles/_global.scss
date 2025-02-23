@@ -1,0 +1,19 @@
+.firm{
+    &-facts{
+        &-page{
+
+            width: 100%;
+            transition: background-color 0.2s ease-in-out;
+
+            &.light{
+                background-color: #fff;
+                color: #0a0a0a;
+            }
+
+            &.dark{
+                background-color: #0a0a0a;
+                color: #fff;
+            }
+        }
+    }
+}

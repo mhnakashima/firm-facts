@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    gap: 1rem;
+
+    min-width: 320px;
+    max-width: 1680px;
+}
+
+.bottomRow, .topRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
